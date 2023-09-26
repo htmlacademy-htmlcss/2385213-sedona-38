@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Мария Ганем](https://up.htmlacademy.ru/htmlcss/38/user/2385213).
-* Наставник: `Неизвестно`.
+* Наставник: [Анна Лисененкова](https://htmlacademy.ru/profile/ankhena).
 
 ---
 
