@@ -1,0 +1,154 @@
+
+  @font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/pt-sans-regular.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/pt-sans-bold.woff2") format("woff2");
+    font-display: swap;
+  }
+  
+  html {
+    height: 100%;
+  }
+
+  body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #242424;
+    background-color: #F2F2F2;
+    font-display: swap;
+    height:100%;
+    display:flex;
+  }
+
+  .container {
+  display: flex;
+  min-height:100%;
+  flex-direction: column;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+  }
+
+  .navigation-link {
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #242424;
+    font-display: swap;
+    font-weight:700;
+    text-decoration: none;
+  }
+
+  .link-button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+  }
+
+  .title {
+    font-family: "PT Sans", sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    color: #242424;
+    font-display: swap;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .advantages-title {
+    font-family: "PT Sans", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #242424;
+    font-display: swap;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .advantages-description {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #242424;
+    font-display: swap;
+    font-weight: 400;
+  }
+
+  .hotel-title {
+    font-family: "PT Sans", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #242424;
+    font-display: swap;
+    font-weight: 700; 
+  }
+
+  .hero {
+    color: #ffffff;
+    background-color: #000000;
+    background-image: url("../images/index-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 1200;
+  }
+
+  .subscribe {
+    color: #ffffff;
+    background-color: #000000;
+    background-image: url("../images/Subscribe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .flters-hotels {
+    color: #ffffff;
+    background-image: url("../images/Фильтр.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+
+  .favorite-added {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+  }
+
+  .favorite-added-active {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #7DB54F;
+  text-decoration: none;
+  text-transform: uppercase;
+  }
