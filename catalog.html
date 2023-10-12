@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
-  <body>
+  <body class="container">
     <header data-test="header" class="page-header">
       <nav class="navigation">
         <ul class="navigation-list">
@@ -42,7 +43,7 @@
             <h1>Гостиницы Седоны</h1>
             <ul class="breadcrumb">
               <li class="breadcrumb breadcrumb">
-                <a href="index.html">На главную</a>
+                <a href="index.html"><p hidden>На главную</p></a>
               </li>
               <li class="breadcrumb breadcrumb">
                 <a href="#">Гостиницы</a>
@@ -116,7 +117,12 @@
         </section>
         <div>
           <h2>Найдено гостиниц: 38</h2>
-          <p>Cначала дешевые</p>
+          <button class="button" type="submit">Cначала дешевые</button>
+          <ul class="menu-view">
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
         </div>
 <section data-test="catalog" class="card-hotels">
   <ul class="list-card-hotels">
@@ -140,7 +146,7 @@
     <p class="card-price-name">Гостиница</p>
     <p class="card-price-value">От 5000 ₽</p>
     <button type="button" name="show_more" class="about">Подробнее</button>
-    <button class="favorite-added">В избранное</button>
+    <button class="favorite-added-active">В избранном</button>
     <div class="rating">
       <p class="stars-star-4">
         <span class="visually-hidden"></span>
